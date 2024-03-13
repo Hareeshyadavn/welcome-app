@@ -17,7 +17,7 @@ pipeline {
         }
         stage ("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsId: 'Hareeshyadavn', url: 'https://github.com/Hareeshyadavn/aws.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Hareeshyadavn/aws.git'
             }
         }
 
