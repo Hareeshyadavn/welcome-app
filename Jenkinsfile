@@ -1,9 +1,5 @@
 pipeline {
     agent { label 'jenins-agent'}
-    tools {
-        jdk 'Java17'
-        maven 'Maven3'
-    }
     environment {
 	        APP_NAME = "welcome-app"
             RELEASE = "1.0.0"
